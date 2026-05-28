@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"from backend.agent.harness import AgentHarness; print\\('harness OK'\\)\")",
+      "Bash(npm --version)",
+      "Bash(npm install *)"
+    ]
+  }
+}
